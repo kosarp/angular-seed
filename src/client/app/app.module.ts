@@ -11,6 +11,7 @@ import { ReportsModule } from './reports/reports.module';
 
 import { SharedModule } from './shared/shared.module';
 
+
 @NgModule({
   imports: [BrowserModule, HttpModule, AppRoutingModule, AboutModule, HomeModule, ReportsModule, SharedModule.forRoot()],
   declarations: [AppComponent],
