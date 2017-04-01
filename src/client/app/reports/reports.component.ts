@@ -31,7 +31,7 @@ export class ReportsComponent implements  OnInit{
     this.chartData = [];
     for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
       this.chartData.push([
-        `Index ${i}`,
+        Math.floor(Math.random() * 100),
         Math.floor(Math.random() * 100)
       ]);
     }

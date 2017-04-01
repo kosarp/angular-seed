@@ -387,6 +387,7 @@ export class SeedConfig {
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
 
       'app/*': '/app/*',
+      'd3': 'node_modules/d3/build/d3.min.js',
       // For test config
       'dist/dev/*': '/base/dist/dev/*',
       '*': 'node_modules/*'
@@ -424,6 +425,7 @@ export class SeedConfig {
       '@angular/platform-browser/animations': 'node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js',
       '@angular/animations/browser': 'node_modules/@angular/animations/bundles/animations-browser.umd.js',
       'dist/tmp/node_modules/*': 'dist/tmp/node_modules/*',
+      //'d3': 'node_modules/d3/build/d3.min.js',
       'node_modules/*': 'node_modules/*',
       '*': 'node_modules/*'
     },

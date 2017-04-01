@@ -1,11 +1,14 @@
 .d3-chart {
-  width: 100%;
+  width: 80%;
   height: 400px;
+  margin: 5px;
 }
 
 .d3-chart .axis path,
 .d3-chart .axis line {
+  fill: none;
   stroke: #999;
+  shape-rendering: crispEdges;
 }
 
 .d3-chart .axis text {
